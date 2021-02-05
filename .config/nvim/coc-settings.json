@@ -1,0 +1,13 @@
+{
+  "suggest.echodocSupport": true,
+  "suggest.maxCompleteItemCount": 20,
+  "eslint.quiet": false,
+  "eslint.filetypes": ["javascript", "typescript", "typescriptreact", "javascriptreact", "typescript.tsx", "vue"],
+  "eslint.run": "onType",
+  "eslint.autoFixOnSave": "true",
+  "diagnostic.errorSign": "•",
+  "diagnostic.warningSign": "•",
+  "diagnostic.infoSign": "•",
+	"coc.preferences.rootPatterns": ["go.mod"],
+	"coc.preferences.formatOnSaveFiletypes": ["rust"]
+}
