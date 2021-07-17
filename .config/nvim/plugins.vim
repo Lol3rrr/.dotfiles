@@ -33,5 +33,8 @@ Plug 'posva/vim-vue'
 
 Plug 'darrikonn/vim-gofmt', { 'do': ':GoUpdateBinaries' }
 
+Plug 'leafOfTree/vim-svelte-plugin'
+let g:vim_svelte_plugin_use_typescript = 1
+
 " Initialize plugin system
 call plug#end()

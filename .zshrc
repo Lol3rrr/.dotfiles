@@ -68,7 +68,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git kubetail)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -99,5 +99,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 export PATH=$GOPATH/bin:$PATH
+
+. $HOME/.ghcup/env
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
